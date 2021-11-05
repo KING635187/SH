@@ -5,7 +5,7 @@ export const StyledComponent = styled.div`
   position: fixed;
 `;
 
-export const StyledSH = styled.h2`
+export const StyledLogo = styled.h2`
   font-family: Blanka;
   font-size: 36px;
   line-height: 43px;

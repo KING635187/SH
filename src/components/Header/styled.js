@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Styledh1 = styled.h1`
+export const StyledHeading = styled.h1`
   font-family: Blanka;
   font-size: 64px;
   color: #2ac7bd;

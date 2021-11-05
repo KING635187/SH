@@ -1,10 +1,10 @@
-import { StyledComponent, StyledSH, StyledMusic } from "./styled";
+import { StyledComponent, StyledLogo, StyledMusic } from "./styled";
 
 const Navbar = () => {
   return (
       <StyledComponent>
         <StyledMusic>music-start</StyledMusic>
-        <StyledSH>SH</StyledSH>
+        <StyledLogo>SH</StyledLogo>
       </StyledComponent>
   );
 };
