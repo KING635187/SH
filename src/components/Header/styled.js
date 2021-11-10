@@ -11,6 +11,6 @@ export const StyledHeading = styled.h1`
   @media (max-width: 1360px) {
     font-size: 48px;
     width: 260px;
-    padding-top: 64px;
+    padding-top: 100px;
   }
 `;

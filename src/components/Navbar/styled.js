@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledComponent = styled.div`
   width: 100%;
   position: fixed;
+  z-index: 2;
 `;
 
 export const StyledLogo = styled.h2`

@@ -9,7 +9,7 @@ const About = () => {
         <Styledp2>
           ello everyone, my name is Shahboz, I am 15 years old and I am a
           front-end developer. I have been studying programming since I was 14
-          years old and I will create a site for you in HTML, CSS, Javascrept,
+          years old and I will create a site for you in HTML, CSS, Javascrept and
           React.{" "}
         </Styledp2>
       </Styleddiv>
