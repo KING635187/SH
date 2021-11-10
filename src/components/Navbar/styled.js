@@ -31,7 +31,8 @@ export const StyledMusic = styled.button`
   right: 0;
   margin-top: 30px;
   border: none;
-  background-color: rgb(0, 0, 0);
+  background-color: transparent;
+  cursor: pointer;
 
   @media (max-width: 1360px) {
     font-size: 10px;
