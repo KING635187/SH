@@ -5,6 +5,8 @@ const Navbar = () => {
   const [playing, setPlaying] = useState(false);
   const [audio, setAudio] = useState(new Audio("/audio/sweet.mp3"));
 
+  audio.volume = 0.1;
+
   const handleMusicToogle = () => {
     if (!playing) {
       audio.play();
