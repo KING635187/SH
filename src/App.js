@@ -11,7 +11,7 @@ import Cursor from "./components/Cursor";
 function App() {
   return (
     <div className="all">
-      <Cursor />
+      {/* <Cursor /> */}
       <Bgimg src="bg-lines.svg" />
       {/* <BackgroundImage /> */}
       <Navbar />
