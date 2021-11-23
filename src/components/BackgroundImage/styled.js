@@ -1,31 +1,31 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components'
 
 const moveLeft = keyframes`
     from {
-        x1: 1094;
-        x1: 1157;
-        y1: 1.5;
-        y2: 1.49999;
+      top: 0;
+      left: 0;
     }
     to {
-        x1: 594;
-        x1: 657;
-        y1: 1.5;
-        y2: 1.49999;
+      top: 0;
+      left: 100%;
     }
-`;
+`
 
-export const Image = styled.svg`
-  width: 100%;
-  height: auto;
-  position: absolute;
-  background-color: rgb(0, 0, 0);
+export const Path = styled.div`
+	width: 1717px;
+	height: 3px;
+	background-color: #004440;
+	position: relative;
+	transform: rotateZ(${(props) => props.rotateZ || '0'})
+		translate(${(props) => props.translate});
+`
 
-  .line {
-    x1: 594;
-    x1: 657;
-    y1: 1.5;
-    y2: 1.49999;
-    animation: ${moveLeft} 5s linear infinite;
-  }
-`;
+export const Line = styled.span`
+	width: 80px;
+	height: 3px;
+	background-color: #2ac7bd;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: ${moveLeft} 5s linear infinite both;
+`

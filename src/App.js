@@ -12,8 +12,8 @@ function App() {
 	return (
 		<div className="all">
 			<Cursor />
-			<Bgimg src="bg-lines.svg" />
-			{/* <BackgroundImage /> */}
+			{/* <Bgimg src="bg-lines.svg" /> */}
+			<BackgroundImage />
 			<Navbar />
 			<Head />
 			<About />
