@@ -1,4 +1,4 @@
-.ring {
+	.ring {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -33,7 +33,7 @@
 	pointer-events: none;
 }
 
-/* .ring.hovered {
+.ring.hovered {
 	width: 50px;
 	height: 50px;
 	border-width: 3px;
@@ -42,5 +42,5 @@
 
 .dot.hovered {
 	display: none;
-} */
+}
 
