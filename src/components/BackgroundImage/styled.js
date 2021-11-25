@@ -11,13 +11,30 @@ const moveLeft = keyframes`
     }
 `
 
+export const Wrapper = styled.div`
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+`
+
+export const Center = styled.div`
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 12%;
+	left: 50%;
+`
+
 export const Path = styled.div`
-	width: 1717px;
+	width: 400%;
 	height: 3px;
 	background-color: #004440;
-	position: relative;
-	transform: rotateZ(${(props) => props.rotateZ || '0'})
-		translate(${(props) => props.translate});
+	position: absolute;
+	transform: translateX(calc(-50% + ${(props) => props.toRight + 'px'}))
+		translateY(-50%) rotateZ(${(props) => props.rotateZ || '0'});
 `
 
 export const Line = styled.span`
@@ -27,5 +44,6 @@ export const Line = styled.span`
 	position: absolute;
 	top: 0;
 	left: 0;
-	animation: ${moveLeft} 5s linear infinite both;
+	animation: ${moveLeft} 15s linear ${(props) => props.delay + 's' || '0s'}
+		infinite both;
 `
