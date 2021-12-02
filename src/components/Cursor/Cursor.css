@@ -1,4 +1,4 @@
-	.ring {
+.ring {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -26,7 +26,7 @@
 	left: 50%;
 	width: 6px;
 	height: 6px;
-	background-color: #2AC7BD;
+	background-color: #2ac7bd;
 	border-radius: 100%;
 	transform: translate(-50%, -50%);
 	z-index: 999;
@@ -37,10 +37,9 @@
 	width: 50px;
 	height: 50px;
 	border-width: 3px;
-	border-color: #2AC7BD;
+	border-color: #2ac7bd;
 }
 
 .dot.hovered {
 	display: none;
 }
-

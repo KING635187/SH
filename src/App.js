@@ -5,15 +5,13 @@ import About from './components/About'
 import Progect from './components/Progect'
 import Contact from './components/Contact'
 import BackgroundImage from './components/BackgroundImage'
-import Bgimg from './components/bgimg'
 import Cursor from './components/Cursor'
 
 function App() {
 	return (
 		<div className="all">
-			<Cursor />
-			{/* <Bgimg src="bg-lines.svg" /> */}
 			<BackgroundImage />
+			<Cursor />
 			<Navbar />
 			<Head />
 			<About />

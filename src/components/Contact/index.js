@@ -19,10 +19,10 @@ const Contact = () => {
 				<Styledgmail
 					onMouseEnter={() => cursorChangeHandler('hovered')}
 					onMouseLeave={() => cursorChangeHandler('')}
-					href="mailto: shaxbozibragimbekov@gmail.com"
+					href="mailto:shaxbozibragimbekov@gmail.com"
 					target="_blank"
 				>
-					shaxbozibragimbekov @gmail.com
+					shaxbozibragimbekov@gmail.com
 				</Styledgmail>
 			</Styledcontent>
 			<StyledLinkContainer>
@@ -58,7 +58,7 @@ const Contact = () => {
 					href="https://github.com/KING635187"
 					target="_blank"
 				>
-					git hub
+					github
 				</Styledlink3>
 			</StyledLinkContainer>
 		</Container>
