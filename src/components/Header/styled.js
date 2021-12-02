@@ -1,163 +1,119 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const StyledHeading = styled.h1`
-  font-family: Blanka;
-  font-size: 64px;
-  color: #2ac7bd;
-  padding-top: 100px;
-  position: relative;
-  animation-name: example;
-  animation-duration: 0.6s;
-  animation-delay: 1s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+export const StyledHeading = styled.div`
+	font-family: Blanka;
+	font-size: 64px;
+	color: #2ac7bd;
+	padding-top: 100px;
+	position: relative;
+	animation-name: example;
+	animation-duration: 10s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 
-  @keyframes example {
-    from {
-      left: -600px;
-    }
-    to {
-      left: 0px;
-    }
-  }
+	@keyframes example {
+		0% {
+			color: #2ac7bd;
+		}
+		20% {
+			color: #004440;
+		}
+		40% {
+			color: #2ac7bd;
+		}
+		60% {
+			color: #004440;
+		}
+		80% {
+			color: #2ac7bd;
+		}
+		100% {
+			color: #004440;
+		}
+	}
 
-  @media (max-width: 1360px) {
-    font-size: 48px;
-    padding-top: 100px;
-  }
-`;
+	@media (max-width: 1360px) {
+		font-size: 48px;
+		padding-top: 100px;
+	}
+`
 
 export const StyledHeading2 = styled.h1`
-  font-family: Blanka;
-  font-size: 64px;
-  color: #2ac7bd;
-  padding: 0;
-  position: relative;
-  animation-name: example2;
-  animation-duration: 0.6s;
-  animation-delay: 1.6s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+	font-family: Blanka;
+	font-size: 64px;
+	color: #2ac7bd;
+	padding: 0;
+	position: relative;
+	animation-name: example2;
 
-  @keyframes example2 {
-    from {
-      left: -600px;
-    }
-    to {
-      left: 0px;
-    }
-  }
+	@keyframes example2 {
+	}
 
-  @media (max-width: 1360px) {
-    font-size: 48px;
-  }
-`;
+	@media (max-width: 1360px) {
+		font-size: 48px;
+	}
+`
 
 export const StyledHeading3 = styled.h1`
-  font-family: Blanka;
-  font-size: 64px;
-  color: #2ac7bd;
-  padding: 0;
-  position: relative;
-  animation-name: example3;
-  animation-duration: 0.6s;
-  animation-delay: 2.2s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+	font-family: Blanka;
+	font-size: 64px;
+	color: #2ac7bd;
+	padding: 0;
+	position: relative;
+	animation-name: example3;
 
-  @keyframes example3 {
-    from {
-      left: -600px;
-    }
-    to {
-      left: 0px;
-    }
-  }
+	@keyframes example3 {
+	}
 
-  @media (max-width: 1360px) {
-    font-size: 48px;
-  }
-`;
+	@media (max-width: 1360px) {
+		font-size: 48px;
+	}
+`
 
 export const StyledHeading4 = styled.h1`
-  font-family: Blanka;
-  font-size: 64px;
-  color: #2ac7bd;
-  padding: 0;
-  position: relative;
-  animation-name: example4;
-  animation-duration: 0.6s;
-  animation-delay: 2.8s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+	font-family: Blanka;
+	font-size: 64px;
+	color: #2ac7bd;
+	padding: 0;
+	position: relative;
+	animation-name: example4;
 
-  @keyframes example4 {
-    from {
-      left: -600px;
-    }
-    to {
-      left: 0px;
-    }
-  }
+	@keyframes example4 {
+	}
 
-  @media (max-width: 1360px) {
-    font-size: 48px;
-  }
-`;
+	@media (max-width: 1360px) {
+		font-size: 48px;
+	}
+`
 
 export const StyledHeading5 = styled.h1`
-  font-family: Blanka;
-  font-size: 64px;
-  color: #2ac7bd;
-  position: relative;
-  animation-name: example;
-  animation-duration: 0.6s;
-  animation-delay: 3.4s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+	font-family: Blanka;
+	font-size: 64px;
+	color: #2ac7bd;
+	position: relative;
+	animation-name: example;
 
-  @keyframes example {
-    from {
-      left: -600px;
-    }
-    to {
-      left: 0px;
-    }
-  }
+	@keyframes example {
+	}
 
-  @media (max-width: 1360px) {
-    font-size: 48px;
-  }
-`;
+	@media (max-width: 1360px) {
+		font-size: 48px;
+	}
+`
 
 export const StyledHeading6 = styled.h1`
-  font-family: Blanka;
-  font-size: 64px;
-  color: #2ac7bd;
-  padding: 0;
-  position: relative;
-  animation-name: example6;
-  animation-duration: 0.6s;
-  animation-delay: 4s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
+	font-family: Blanka;
+	font-size: 64px;
+	color: #2ac7bd;
+	padding: 0;
+	position: relative;
+	animation-name: example6;
 
-  @keyframes example6 {
-    from {
-      top: -600px;
-    }
-    to {
-      top: 0px;
-    }
-  }
+	@keyframes example6 {
+	}
 
-  @media (max-width: 1360px) {
-    font-size: 48px;
-  }
-`;
+	@media (max-width: 1360px) {
+		font-size: 48px;
+	}
+`

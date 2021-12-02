@@ -1,31 +1,68 @@
-import Container from "../Container";
+import Container from '../Container'
 import {
-  Styledgmail,
-  Styledcontent,
-  Styledlink,
-  Styledlink2,
-  Styledlink3,
-  StyledLinkContainer,
-} from "./styled";
+	Styledgmail,
+	Styledcontent,
+	Styledlink,
+	Styledlink2,
+	Styledlink3,
+	StyledLinkContainer,
+} from './styled'
+import { MouseContext } from '../../context/mouse-context'
+import { useContext } from 'react'
 
 const Contact = () => {
-  return (
-    <Container>
-      <Styledcontent>
-        <Styledgmail href="mailto: shaxbozibragimbekov@gmail.com">
-          shaxbozibragimbekov @gmail.com
-        </Styledgmail>
-      </Styledcontent>
-      <StyledLinkContainer>
-        <Styledlink href="https://t.me/Frontend_Developer_SH">telegram</Styledlink>
-        <Styledlink2 href="#">facebook</Styledlink2>
-      </StyledLinkContainer>
-      <StyledLinkContainer>
-        <Styledlink href="#">instagram</Styledlink>
-        <Styledlink3 href="https://github.com/KING635187" target="_blank">git hub</Styledlink3>
-      </StyledLinkContainer>
-    </Container>
-  );
-};
+	const { cursorChangeHandler } = useContext(MouseContext)
 
-export default Contact;
+	return (
+		<Container>
+			<Styledcontent>
+				<Styledgmail
+					onMouseEnter={() => cursorChangeHandler('hovered')}
+					onMouseLeave={() => cursorChangeHandler('')}
+					href="mailto: shaxbozibragimbekov@gmail.com"
+					target="_blank"
+				>
+					shaxbozibragimbekov @gmail.com
+				</Styledgmail>
+			</Styledcontent>
+			<StyledLinkContainer>
+				<Styledlink
+					onMouseEnter={() => cursorChangeHandler('hovered')}
+					onMouseLeave={() => cursorChangeHandler('')}
+					href="https://t.me/Frontend_Developer_SH"
+					target="_blank"
+				>
+					telegram
+				</Styledlink>
+				<Styledlink2
+					onMouseEnter={() => cursorChangeHandler('hovered')}
+					onMouseLeave={() => cursorChangeHandler('')}
+					href="#"
+					target="_blank"
+				>
+					facebook
+				</Styledlink2>
+			</StyledLinkContainer>
+			<StyledLinkContainer>
+				<Styledlink
+					onMouseEnter={() => cursorChangeHandler('hovered')}
+					onMouseLeave={() => cursorChangeHandler('')}
+					href="#"
+					target="_blank"
+				>
+					instagram
+				</Styledlink>
+				<Styledlink3
+					onMouseEnter={() => cursorChangeHandler('hovered')}
+					onMouseLeave={() => cursorChangeHandler('')}
+					href="https://github.com/KING635187"
+					target="_blank"
+				>
+					git hub
+				</Styledlink3>
+			</StyledLinkContainer>
+		</Container>
+	)
+}
+
+export default Contact

@@ -4,7 +4,7 @@
 	left: 0;
 	width: 22px;
 	height: 22px;
-	border: 2px solid rgba(231, 224, 224, 0.808);
+	border: 2px solid #004440;
 	border-radius: 100%;
 	transform: translate(-50%, -50%);
 	-webkit-transition-duration: 100ms;
@@ -26,7 +26,7 @@
 	left: 50%;
 	width: 6px;
 	height: 6px;
-	background-color: rgb(255, 255, 255);
+	background-color: #2AC7BD;
 	border-radius: 100%;
 	transform: translate(-50%, -50%);
 	z-index: 999;
@@ -37,7 +37,7 @@
 	width: 50px;
 	height: 50px;
 	border-width: 3px;
-	border-color: lightgray;
+	border-color: #2AC7BD;
 }
 
 .dot.hovered {
