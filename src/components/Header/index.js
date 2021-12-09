@@ -1,9 +1,6 @@
 import {
 	StyledComponent,
 	StyledHeading,
-	StyledHeading2,
-	StyledHeading3,
-	StyledHeading4,
 	StyledText,
 } from './styled'
 import Container from '../Container'
@@ -13,16 +10,16 @@ const Header = () => {
 		<Container>
 			<StyledComponent>
 				<StyledHeading>
-					<StyledText>Hi. 	</StyledText>
+					<StyledText>Hi.</StyledText>
 				</StyledHeading>
 				<StyledHeading>
-					<StyledHeading2>I’m Shakhboz. </StyledHeading2>
+					<StyledText>I’m Shakhboz.</StyledText>
 				</StyledHeading>
 				<StyledHeading>
-					<StyledHeading3>Front-end </StyledHeading3>
+					<StyledText>Front-end</StyledText>
 				</StyledHeading>
 				<StyledHeading>
-					<StyledHeading4>developer</StyledHeading4>
+					<StyledText>developer</StyledText>
 				</StyledHeading>
 			</StyledComponent>
 		</Container>
