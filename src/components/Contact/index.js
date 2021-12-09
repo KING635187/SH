@@ -9,12 +9,14 @@ import {
 } from './styled'
 import { MouseContext } from '../../context/mouse-context'
 import { useContext } from 'react'
+import Slidercopy2 from '../Slidercopy2'
 
 const Contact = () => {
 	const { cursorChangeHandler } = useContext(MouseContext)
 
 	return (
 		<Container>
+			<Slidercopy2 />
 			<Styledcontent>
 				<Styledgmail
 					onMouseEnter={() => cursorChangeHandler('hovered')}

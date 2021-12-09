@@ -1,9 +1,11 @@
 import { Styledp1, Styledp2, Styleddiv } from "./styled";
 import Container from "../Container";
+import Slider from "../Slider";
 
 const About = () => {
   return (
     <Container>
+      <Slider />
       <Styleddiv>
         <Styledp1>H</Styledp1>
         <Styledp2>

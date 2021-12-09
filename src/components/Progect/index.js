@@ -8,9 +8,12 @@ import {
   StyledContent2,
 } from "./styled";
 
+import Slidercopy from "../Slidercopy";
+
 const Progect = () => {
   return (
     <Container>
+      <Slidercopy />
       <StyledContent>
         <StyledBox></StyledBox>
         <StyledBox2></StyledBox2>

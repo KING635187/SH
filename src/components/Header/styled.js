@@ -15,12 +15,11 @@ const slideToTop = keyframes`
 		transform: translateY(100%);
 	}
 	to {
-		transform: translateY(0);
+		transform: translateY(0%);
 	}
 `
 
 export const StyledHeading = styled.div`
-	display: inline-block;
 	overflow: hidden;
 `
 
@@ -29,15 +28,14 @@ export const StyledText = styled.span`
 	${heading}
 	animation-name: ${slideToTop};
 	animation-duration: 1s;
+	animation-delay: 1s;
 `
 
 export const StyledHeading2 = styled.h1`
-	font-family: Blanka;
-	font-size: 64px;
-	color: #2ac7bd;
-	padding: 0;
-	position: relative;
-	animation-name: example2;
+	${heading}
+	animation-name: ${slideToTop};
+	animation-duration: 1s;
+	animation-delay: 1.7s;
 
 	@keyframes example2 {
 	}
@@ -49,9 +47,9 @@ export const StyledHeading2 = styled.h1`
 
 export const StyledHeading3 = styled.h1`
 	${heading}
-	padding: 0;
-	position: relative;
-	animation-name: example3;
+	animation-name: ${slideToTop};
+	animation-duration: 1s;
+	animation-delay: 2.4s;
 
 	@keyframes example3 {
 	}
@@ -63,9 +61,9 @@ export const StyledHeading3 = styled.h1`
 
 export const StyledHeading4 = styled.h1`
 	${heading}
-	padding: 0;
-	position: relative;
-	animation-name: example4;
+	animation-name: ${slideToTop};
+	animation-duration: 1s;
+	animation-delay: 3.1s;
 
 	@keyframes example4 {
 	}
@@ -75,29 +73,12 @@ export const StyledHeading4 = styled.h1`
 	}
 `
 
-export const StyledHeading5 = styled.h1`
-	${heading}
-	position: relative;
-	animation-name: example;
-
-	@keyframes example {
-	}
+export const StyledComponent = styled.div`
+	padding-top: 250px;
+	text-align: left;
+	padding-bottom: 220px;
 
 	@media (max-width: 1360px) {
-		font-size: 48px;
-	}
-`
-
-export const StyledHeading6 = styled.h1`
-	${heading}
-	padding: 0;
-	position: relative;
-	animation-name: example6;
-
-	@keyframes example6 {
-	}
-
-	@media (max-width: 1360px) {
-		font-size: 48px;
+		padding-top: 160px;
 	}
 `

@@ -31,7 +31,7 @@ export const Styledlink3 = styled.a`
 	line-height: 43px;
 	margin-left: 452px;
 	margin-top: 72px;
-	margin-bottom: 160px;
+	margin-bottom: 100px;
 
 	@media (max-width: 1360px) {
 		margin-left: 332px;
@@ -46,7 +46,7 @@ export const Styledgmail = styled.a`
 	text-decoration: none;
 
 	@media (max-width: 1360px) {
-		font-size: 64px;
+		font-size: 54px;
 	}
 `
 
