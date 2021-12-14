@@ -22,3 +22,7 @@ const Slidercopy = () => {
 }
 
 export default Slidercopy
+
+
+
+

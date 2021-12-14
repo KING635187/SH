@@ -28,7 +28,7 @@ export const StyledText = styled.span`
 	${heading}
 	animation-name: ${slideToTop};
 	animation-duration: 1s;
-	animation-delay: 1s;
+	animation-delay: ${(props) => props.delay}s;
 	animation-fill-mode: both;
 `
 

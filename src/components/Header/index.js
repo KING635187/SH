@@ -10,16 +10,16 @@ const Header = () => {
 		<Container>
 			<StyledComponent>
 				<StyledHeading>
-					<StyledText>Hi.</StyledText>
+					<StyledText delay={0} >Hi.</StyledText>
 				</StyledHeading>
 				<StyledHeading>
-					<StyledText>I’m Shakhboz.</StyledText>
+					<StyledText delay={0.4} >I’m Shakhboz.</StyledText>
 				</StyledHeading>
 				<StyledHeading>
-					<StyledText>Front-end</StyledText>
+					<StyledText delay={0.8} >Front-end</StyledText>
 				</StyledHeading>
 				<StyledHeading>
-					<StyledText>developer</StyledText>
+					<StyledText delay={1.2} >developer</StyledText>
 				</StyledHeading>
 			</StyledComponent>
 		</Container>

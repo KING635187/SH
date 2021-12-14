@@ -29,6 +29,6 @@ export const Text = styled.span`
 	animation: ${moveLeft} 8s linear ${(props) => props.delay}s infinite both;
 
 	&:not(:last-child) {
-		margin-right: 80px;
+		margin-right: 1200px;
 	}
 `
