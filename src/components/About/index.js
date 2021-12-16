@@ -5,7 +5,7 @@ import HeadingSlider from '../HeadingSlider'
 const About = () => {
 	return (
 		<>
-			<HeadingSlider title="about me" />
+			<HeadingSlider text="about me" gap={80} />
 			<Container>
 				<Styleddiv>
 					<Styledp1>H</Styledp1>
