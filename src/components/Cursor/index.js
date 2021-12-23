@@ -16,6 +16,7 @@ const Cursor = () => {
 			<div
 				className={'dot ' + cursorType}
 				style={{ left: `${x}px`, top: `${y}px` }}
+				
 			></div>
 		</>
 	)

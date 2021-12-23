@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Styledlink = styled.a`
-	color: #2ac7bd;
+	color: #00FFF5;
 	font-family: Blanka;
 	font-size: 36px;
 	line-height: 43px;
@@ -13,7 +13,7 @@ export const Styledlink = styled.a`
 	}
 `
 export const Styledlink2 = styled.a`
-	color: #2ac7bd;
+	color: #00FFF5;
 	font-family: Blanka;
 	font-size: 36px;
 	line-height: 43px;
@@ -25,7 +25,21 @@ export const Styledlink2 = styled.a`
 	}
 `
 export const Styledlink3 = styled.a`
-	color: #2ac7bd;
+	color: #00FFF5;
+	font-family: Blanka;
+	font-size: 36px;
+	line-height: 43px;
+	margin-left: 452px;
+	margin-top: 72px;
+	margin-bottom: 100px;
+
+	@media (max-width: 1360px) {
+		margin-left: 332px;
+	}
+`
+
+export const Styledlink4 = styled.a`
+	color: #00FFF5;
 	font-family: Blanka;
 	font-size: 36px;
 	line-height: 43px;
@@ -42,7 +56,7 @@ export const Styledgmail = styled.a`
 	font-family: Blanka;
 	font-size: 72px;
 	line-height: 60px;
-	color: #2ac7bd;
+	color: #00FFF5;
 	text-decoration: none;
 
 	@media (max-width: 1360px) {
@@ -52,6 +66,7 @@ export const Styledgmail = styled.a`
 
 export const Styledcontent = styled.div`
 	text-align: center;
+	padding-top: 300px;
 `
 
 export const StyledLinkContainer = styled.div`

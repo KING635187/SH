@@ -2,10 +2,14 @@ import styled, { css, keyframes } from 'styled-components'
 
 const heading = css`
 	font-family: Blanka;
-	font-size: 64px;
-	color: #2ac7bd;
+	font-size: 72px;
+	color: #00FFF5;
 
 	@media (max-width: 1360px) {
+		font-size: 64px;
+	}
+
+	@media (max-width: 425px) {
 		font-size: 48px;
 	}
 `
@@ -33,11 +37,16 @@ export const StyledText = styled.span`
 `
 
 export const StyledComponent = styled.div`
-	padding-top: 250px;
+	padding-top: 200px;
 	text-align: left;
-	padding-bottom: 220px;
+	padding-bottom: 200px;
 
 	@media (max-width: 1360px) {
 		padding-top: 160px;
+	}
+
+	@media (max-width: 425px) {
+		padding-top: 250px;
+		padding-bottom: 300px;
 	}
 `

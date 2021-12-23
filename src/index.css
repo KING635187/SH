@@ -22,13 +22,13 @@ cursor {
 }
 
 ::-webkit-scrollbar-track {
-	background: #000000;
+	background: #222831;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #2ac7bd;
+	background: #00FFF5;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #004440;
+	background: #393E46;
 }

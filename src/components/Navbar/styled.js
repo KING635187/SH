@@ -10,7 +10,7 @@ export const StyledLogo = styled.h2`
 	font-family: Blanka;
 	font-size: 36px;
 	line-height: 43px;
-	color: #2ac7bd;
+	color: #00FFF5;
 	padding-top: 12px;
 	display: inline-block;
 	position: absolute;
@@ -21,11 +21,16 @@ export const StyledLogo = styled.h2`
 		font-size: 28px;
 		padding-top: 6px;
 	}
+
+	@media (max-width: 425px) {
+		font-size: 28px;
+		padding-top: 6px;
+	}
 `
 
 export const StyledMusic = styled.button`
 	font-family: Blanka;
-	color: #2ac7bd;
+	color: #00FFF5;
 	margin-right: 164px;
 	position: absolute;
 	right: 0;
@@ -36,5 +41,11 @@ export const StyledMusic = styled.button`
 	@media (max-width: 1360px) {
 		font-size: 10px;
 		margin-top: 20px;
+	}
+
+	@media (max-width: 425px) {
+		margin-left: 12px;
+		left: 0;
+		font-size: 14px;
 	}
 `

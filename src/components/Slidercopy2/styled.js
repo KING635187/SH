@@ -42,7 +42,7 @@ export const Path4 = styled.div`
 `
 
 export const Line3 = styled.span`
-	color: #2ac7bd;
+	color: #00FFF5;
 	font-family: Blanka;
 	font-size: 32px;
 	width: 156px;

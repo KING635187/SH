@@ -6,6 +6,7 @@ import {
 	Styledlink2,
 	Styledlink3,
 	StyledLinkContainer,
+	Styledlink4,
 } from './styled'
 import { MouseContext } from '../../context/mouse-context'
 import { useContext } from 'react'
@@ -46,22 +47,22 @@ const Contact = () => {
 				</Styledlink2>
 			</StyledLinkContainer>
 			<StyledLinkContainer>
-				<Styledlink
+				<Styledlink3
 					onMouseEnter={() => cursorChangeHandler('hovered')}
 					onMouseLeave={() => cursorChangeHandler('')}
 					href="#"
 					target="_blank"
 				>
 					instagram
-				</Styledlink>
-				<Styledlink3
+				</Styledlink3>
+				<Styledlink4
 					onMouseEnter={() => cursorChangeHandler('hovered')}
 					onMouseLeave={() => cursorChangeHandler('')}
 					href="https://github.com/KING635187"
 					target="_blank"
 				>
 					github
-				</Styledlink3>
+				</Styledlink4>
 			</StyledLinkContainer>
 		</Container>
 	)

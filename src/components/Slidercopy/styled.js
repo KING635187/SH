@@ -32,6 +32,10 @@ export const Center2 = styled.div`
 	@media (max-width: 1360px) {
 		top: 43%;
 	}
+
+	@media (max-width: 425px) {
+		top: 64%;
+  }
 `
 
 export const Path4 = styled.div`
@@ -42,7 +46,7 @@ export const Path4 = styled.div`
 `
 
 export const Line3 = styled.span`
-	color: #2ac7bd;
+	color: #00FFF5;
 	font-family: Blanka;
 	font-size: 32px;
 	width: 156px;
